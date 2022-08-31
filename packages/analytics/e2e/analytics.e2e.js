@@ -273,7 +273,6 @@ describe('analytics()', function () {
       await firebase.analytics().logSelectItem({
         item_list_id: 'foo',
         item_list_name: 'foo',
-        content_type: 'foo',
       });
     });
   });

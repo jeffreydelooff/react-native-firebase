@@ -169,7 +169,6 @@ export const SelectItem = struct({
   items: struct.optional([Item]),
   item_list_id: 'string?',
   item_list_name: 'string?',
-  content_type: 'string?',
 });
 
 export const SelectPromotion = struct({

@@ -445,7 +445,6 @@ export namespace FirebaseAnalyticsTypes {
 
   export interface SelectItemEventParameters {
     items?: Item[];
-    content_type: string;
     /**
      * The ID of the list in which the item was presented to the user
      */
